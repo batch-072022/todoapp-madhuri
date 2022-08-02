@@ -10,6 +10,8 @@ import { AddTaskComponent } from './add-task/add-task.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { EditTaskComponent } from './edit-task/edit-task.component';
+import { ViewUserComponent } from './view-user/view-user.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { EditTaskComponent } from './edit-task/edit-task.component';
     HeaderComponent,
     HomeComponent,
     EditTaskComponent,
+    ViewUserComponent,
+    EditUserComponent,
   ],
   imports: [
     BrowserModule,

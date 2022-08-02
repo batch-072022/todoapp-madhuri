@@ -6,14 +6,20 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AddTaskComponent } from './add-task/add-task.component';
 import { ListTaskComponent } from './list-task/list-task.component';
+import { EditTaskComponent } from './edit-task/edit-task.component';
+import { ViewUserComponent } from './view-user/view-user.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
 
 const routes: Routes = [
   {path:'home', component:HomeComponent},
   {path:'register', component:RegisterComponent},
   {path:'login', component:LoginComponent},
-  {path:'listuser', component:ListUsersComponent},
+  {path:'users', component:ListUsersComponent},
+  {path:'viewuser',component:ViewUserComponent},
+  {path:'edituser',component:EditUserComponent},
   {path:'addtask', component:AddTaskComponent},
   {path:'listtask',component:ListTaskComponent},
+  {path:'edittask',component:EditTaskComponent},
   {path:'', redirectTo:'home' ,pathMatch:'full'}
 ];
 
